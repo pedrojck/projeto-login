@@ -63,6 +63,7 @@ section#login {
     }
     .campo > input:focus-within{
         background-color: white;
+        outline: none
     }
     .material-symbols-outlined{
         color: white;
