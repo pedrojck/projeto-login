@@ -46,7 +46,7 @@ section#login {
         padding: 5px;
         height:45px;
         border: none;
-        border-radius: 5px;
+        border-radius: 8px;
         background-color: #bc4ec4;
     }
     .campo > label{
@@ -54,8 +54,21 @@ section#login {
     }
     .campo > input{
        padding: 5px 0px;
-       width: 80%; 
+       width: 83%; 
        background-color: #ead1ec;
+       font-size: 1em;
+       border: none;
+       border-radius: 8px;
+       transform: translateY(-5px);
+    }
+    .campo > input:focus-within{
+        background-color: white;
+    }
+    .material-symbols-outlined{
+        color: white;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
     }
     
     section#login > div#imagem {
